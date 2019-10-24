@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1636,6 +1636,43 @@ http://www.bccomponents.com/</description>
 </package3d>
 </packages3d>
 </library>
+<library name="LP2985IM5-5.0">
+<packages>
+<package name="SOT95P284X119-5N">
+<wire x1="-0.7874" y1="0.7112" x2="-0.7874" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.1938" x2="-1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.7112" x2="-0.7874" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-0.254" x2="-0.7874" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="0.254" x2="-1.4986" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.254" x2="-1.4986" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.254" x2="-0.7874" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-1.1938" x2="-0.7874" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-0.7112" x2="-1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.7112" x2="-1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-1.1938" x2="-0.7874" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-0.7112" x2="0.7874" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-1.1938" x2="1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-1.1938" x2="1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-0.7112" x2="0.7874" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="1.1938" x2="0.7874" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="0.7112" x2="1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="0.7112" x2="1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="1.1938" x2="0.7874" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-1.4478" x2="0.7874" y2="-1.4478" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-1.4478" x2="0.7874" y2="1.4478" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="1.4478" x2="-0.7874" y2="1.4478" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.4478" x2="-0.7874" y2="-1.4478" width="0.1524" layer="51"/>
+<text x="-4.55226875" y="1.958240625" size="2.0854" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.672109375" y="-4.06966875" size="2.085709375" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-1.2192" y="0.9398" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="2" x="-1.2192" y="0" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="3" x="-1.2192" y="-0.9398" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="4" x="1.2192" y="-0.9398" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="5" x="1.2192" y="0.9398" dx="1.27" dy="0.5334" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1868,6 +1905,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.9834" y="15.875" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="48.26" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U3" library="LP2985IM5-5.0" package="SOT95P284X119-5N" value="LP2985IM5-5.0" x="3.81" y="-7.62" smashed="yes">
+<attribute name="DESCRIPTION" value=" Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 and DSBGA Packages 5-SOT-23 -40 to 125 " x="3.81" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="LP2985IM5-5.0/NOPBCT-ND" x="3.81" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/texas-instruments/LP2985IM5-5.0-NOPB/LP2985IM5-5.0-NOPBCT-ND/334983?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="3.81" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="3.81" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LP2985IM5-5.0/NOPB" x="3.81" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-0.74226875" y="-5.661759375" size="2.0854" layer="25" ratio="10" rot="SR0"/>
+<attribute name="PACKAGE" value="SOT-23 Texas Instruments" x="3.81" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-1.862109375" y="-11.68966875" size="2.085709375" layer="27" ratio="10" rot="SR0"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
@@ -1953,6 +2000,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$14">
 <contactref element="U2" pad="7"/>
+</signal>
+<signal name="VIN">
+<contactref element="U3" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

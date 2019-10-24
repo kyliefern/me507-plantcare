@@ -3,7 +3,7 @@
 <eagle version="9.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -17894,6 +17894,87 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LP2985IM5-5.0">
+<packages>
+<package name="SOT95P284X119-5N">
+<wire x1="-0.7874" y1="0.7112" x2="-0.7874" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.1938" x2="-1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.7112" x2="-0.7874" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-0.254" x2="-0.7874" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="0.254" x2="-1.4986" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="0.254" x2="-1.4986" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.254" x2="-0.7874" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-1.1938" x2="-0.7874" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-0.7112" x2="-1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-0.7112" x2="-1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-1.1938" x2="-0.7874" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-0.7112" x2="0.7874" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-1.1938" x2="1.4986" y2="-1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-1.1938" x2="1.4986" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="-0.7112" x2="0.7874" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="1.1938" x2="0.7874" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="0.7112" x2="1.4986" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="0.7112" x2="1.4986" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="1.4986" y1="1.1938" x2="0.7874" y2="1.1938" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-1.4478" x2="0.7874" y2="-1.4478" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-1.4478" x2="0.7874" y2="1.4478" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="1.4478" x2="-0.7874" y2="1.4478" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="1.4478" x2="-0.7874" y2="-1.4478" width="0.1524" layer="51"/>
+<text x="-4.55226875" y="1.958240625" size="2.0854" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.672109375" y="-4.06966875" size="2.085709375" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<smd name="1" x="-1.2192" y="0.9398" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="2" x="-1.2192" y="0" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="3" x="-1.2192" y="-0.9398" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="4" x="1.2192" y="-0.9398" dx="1.27" dy="0.5334" layer="1"/>
+<smd name="5" x="1.2192" y="0.9398" dx="1.27" dy="0.5334" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LP2985IM5-5.0">
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.4064" layer="94"/>
+<text x="-5.46741875" y="8.90045" size="2.08525" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.62945" y="-18.0091" size="2.0858" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="VIN" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="ON/OFF" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="BYPASS" x="-17.78" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND" x="-17.78" y="-10.16" length="middle" direction="pas"/>
+<pin name="VOUT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LP2985IM5-5.0" prefix="U">
+<description>Dropout Regulator</description>
+<gates>
+<gate name="A" symbol="LP2985IM5-5.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P284X119-5N">
+<connects>
+<connect gate="A" pin="BYPASS" pad="4"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="ON/OFF" pad="3"/>
+<connect gate="A" pin="VIN" pad="1"/>
+<connect gate="A" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 and DSBGA Packages 5-SOT-23 -40 to 125 "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="LP2985IM5-5.0/NOPBCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/texas-instruments/LP2985IM5-5.0-NOPB/LP2985IM5-5.0-NOPBCT-ND/334983?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LP2985IM5-5.0/NOPB"/>
+<attribute name="PACKAGE" value="SOT-23 Texas Instruments"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17917,6 +17998,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="153CLV-0605" package3d_urn="urn:adsk.eagle:package:23398/2"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="Downloads" deviceset="DRV8833PWPR" device=""/>
+<part name="U3" library="LP2985IM5-5.0" deviceset="LP2985IM5-5.0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17937,6 +18019,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </instance>
 <instance part="GND1" gate="1" x="139.7" y="83.82" smashed="yes">
 <attribute name="VALUE" x="137.16" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="U3" gate="A" x="203.2" y="68.58" smashed="yes">
+<attribute name="NAME" x="197.73258125" y="77.48045" size="2.08525" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="198.57055" y="50.5709" size="2.0858" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
