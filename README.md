@@ -8,4 +8,4 @@
 
 10/26 - added USB to UART bridge
 
-10/28 - need to add through hole Caps and resistors
+10/28 - need to add through-hole caps and resistors
