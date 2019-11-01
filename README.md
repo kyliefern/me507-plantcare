@@ -10,4 +10,8 @@
 
 10/28 - need to add through-hole caps and resistors
 
-10/29 - added status LEDs & TH Capacitors
+10/29 - added LEDs and through-hole capacitors
+
+10/30 - put down traces
+
+10/31 - rearranged board, added resistor
