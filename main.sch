@@ -1605,38 +1605,42 @@ Metric Code Size 4564</description>
 <smd name="1" x="-2.75" y="0" dx="3.5" dy="1.2" layer="1"/>
 <smd name="2" x="2.75" y="0" dx="3.5" dy="1.2" layer="1"/>
 </package>
-<package name="CUI_PJ-015AH-SMT-TR">
-<text x="-7.31788125" y="11.6826" size="1.27136875" layer="25">&gt;NAME</text>
-<text x="-7.345490625" y="-15.9619" size="1.27095" layer="27">&gt;VALUE</text>
-<circle x="0" y="10.86" radius="0.2" width="0.4" layer="21"/>
-<wire x1="6.5" y1="5.9" x2="6.5" y2="-9.8" width="0.1524" layer="21"/>
-<wire x1="-6.5" y1="-9.8" x2="-6.5" y2="5.9" width="0.1524" layer="21"/>
-<wire x1="-6.5" y1="5.9" x2="6.5" y2="5.9" width="0.1524" layer="51"/>
-<wire x1="6.5" y1="5.9" x2="6.5" y2="-9.8" width="0.1524" layer="51"/>
-<wire x1="6.5" y1="-9.8" x2="-6.5" y2="-9.8" width="0.1524" layer="51"/>
-<wire x1="-6.5" y1="-9.8" x2="-6.5" y2="5.9" width="0.1524" layer="51"/>
-<wire x1="-6.75" y1="6.15" x2="-2.75" y2="6.15" width="0.05" layer="39"/>
-<wire x1="2.75" y1="6.15" x2="6.75" y2="6.15" width="0.05" layer="39"/>
-<wire x1="6.75" y1="6.15" x2="6.75" y2="-10.05" width="0.05" layer="39"/>
-<wire x1="6.75" y1="-10.05" x2="4.5" y2="-10.05" width="0.05" layer="39"/>
-<wire x1="-4.5" y1="-10.05" x2="-6.75" y2="-10.05" width="0.05" layer="39"/>
-<wire x1="-6.75" y1="-10.05" x2="-6.75" y2="6.15" width="0.05" layer="39"/>
-<wire x1="-6.5" y1="5.9" x2="-2.75" y2="5.9" width="0.1524" layer="21"/>
-<wire x1="-4.5" y1="-9.8" x2="-6.5" y2="-9.8" width="0.1524" layer="21"/>
-<wire x1="2.75" y1="5.9" x2="6.5" y2="5.9" width="0.1524" layer="21"/>
-<wire x1="6.5" y1="-9.8" x2="4.5" y2="-9.8" width="0.1524" layer="21"/>
-<wire x1="-2.75" y1="6.15" x2="-2.75" y2="10.45" width="0.05" layer="39"/>
-<wire x1="-2.75" y1="10.45" x2="2.75" y2="10.45" width="0.05" layer="39"/>
-<wire x1="2.75" y1="10.45" x2="2.75" y2="6.15" width="0.05" layer="39"/>
-<wire x1="-4.5" y1="-14.05" x2="-4.5" y2="-10.05" width="0.05" layer="39"/>
-<wire x1="-4.5" y1="-14.05" x2="4.5" y2="-14.05" width="0.05" layer="39"/>
-<wire x1="4.5" y1="-14.05" x2="4.5" y2="-10.05" width="0.05" layer="39"/>
-<smd name="1" x="0" y="7.6" dx="5" dy="5.2" layer="1"/>
-<smd name="2" x="-2.375" y="-11.3" dx="3.75" dy="5" layer="1"/>
-<smd name="3" x="2.375" y="-11.3" dx="3.75" dy="5" layer="1"/>
-<hole x="4.1" y="-2" drill="1.7"/>
-<hole x="0" y="0" drill="4.2"/>
-<hole x="-4.1" y="-2" drill="1.7"/>
+<package name="CUI_PJ-036AH-SMT-TR">
+<text x="-15.7612" y="9.99983125" size="1.27251875" layer="25">&gt;NAME</text>
+<text x="-15.7518" y="-9.527159375" size="1.27095" layer="27">&gt;VALUE</text>
+<circle x="3.358" y="-0.03" radius="0.2" width="0.4" layer="21"/>
+<wire x1="-15.75" y1="5.15" x2="-15.75" y2="-3.85" width="0.127" layer="51"/>
+<wire x1="-15.75" y1="-3.85" x2="-1.25" y2="-3.85" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-3.85" x2="-1.25" y2="5.15" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="5.15" x2="-15.75" y2="5.15" width="0.127" layer="51"/>
+<wire x1="-15.75" y1="5.15" x2="-15.75" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-16" y1="5.4" x2="-16" y2="-4.1" width="0.05" layer="39"/>
+<wire x1="-16" y1="-4.1" x2="-12.35" y2="-4.1" width="0.05" layer="39"/>
+<wire x1="-5.55" y1="-4.1" x2="-1" y2="-4.1" width="0.05" layer="39"/>
+<wire x1="-1" y1="-4.1" x2="-1" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-1" y1="1.9" x2="-1" y2="5.4" width="0.05" layer="39"/>
+<wire x1="-1" y1="5.4" x2="-5.6" y2="5.4" width="0.05" layer="39"/>
+<wire x1="-12.3" y1="5.4" x2="-16" y2="5.4" width="0.05" layer="39"/>
+<wire x1="-12.3" y1="5.4" x2="-12.3" y2="9.3" width="0.05" layer="39"/>
+<wire x1="-12.3" y1="9.3" x2="-5.6" y2="9.3" width="0.05" layer="39"/>
+<wire x1="-5.6" y1="9.3" x2="-5.6" y2="5.4" width="0.05" layer="39"/>
+<wire x1="-1" y1="1.9" x2="2.5" y2="1.9" width="0.05" layer="39"/>
+<wire x1="2.5" y1="1.9" x2="2.5" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="2.5" y1="-1.9" x2="-1" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-12.35" y1="-4.1" x2="-12.35" y2="-8.05" width="0.05" layer="39"/>
+<wire x1="-12.35" y1="-8.05" x2="-5.55" y2="-8.05" width="0.05" layer="39"/>
+<wire x1="-5.55" y1="-8.05" x2="-5.55" y2="-4.1" width="0.05" layer="39"/>
+<wire x1="-12.4" y1="5.15" x2="-15.75" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="5.15" x2="-5.5" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2" x2="-1.25" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-3.85" x2="-1.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="-15.75" y1="-3.85" x2="-12.4" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-3.85" x2="-1.25" y2="-3.85" width="0.127" layer="21"/>
+<circle x="3.358" y="-0.03" radius="0.2" width="0.4" layer="51"/>
+<smd name="1" x="0" y="0" dx="3.3" dy="4.4" layer="1" rot="R90"/>
+<smd name="3" x="-8.95" y="-5.8" dx="6.2" dy="3.9" layer="1"/>
+<smd name="2" x="-8.95" y="7.1" dx="6.2" dy="3.9" layer="1" rot="R180"/>
+<hole x="-12.75" y="0.65" drill="2"/>
 </package>
 <package name="TE_1734510-1">
 <wire x1="-3.3" y1="0.6" x2="-4" y2="0.6" width="0" layer="46" curve="180"/>
@@ -1808,6 +1812,33 @@ Metric Code Size 4564</description>
 <wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
 <wire x1="6.35" y1="2.54" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
 </package>
+<package name="SOIC127P600X175-14N" urn="urn:adsk.eagle:footprint:14910070/1">
+<description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 8.65 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<circle x="-2.678" y="4.605" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.95" y1="4.415" x2="1.95" y2="4.415" width="0.12" layer="21"/>
+<wire x1="-1.95" y1="-4.415" x2="1.95" y2="-4.415" width="0.12" layer="21"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.12" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.12" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.12" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.12" layer="51"/>
+<smd name="1" x="-2.5585" y="3.81" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="2" x="-2.5585" y="2.54" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="3" x="-2.5585" y="1.27" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="4" x="-2.5585" y="0" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="5" x="-2.5585" y="-1.27" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="6" x="-2.5585" y="-2.54" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="7" x="-2.5585" y="-3.81" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="8" x="2.5585" y="-3.81" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="9" x="2.5585" y="-2.54" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="10" x="2.5585" y="-1.27" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="11" x="2.5585" y="0" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="12" x="2.5585" y="1.27" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="13" x="2.5585" y="2.54" dx="1.6949" dy="0.5819" layer="1"/>
+<smd name="14" x="2.5585" y="3.81" dx="1.6949" dy="0.5819" layer="1"/>
+<text x="0" y="5.49" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.05" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X04" urn="urn:adsk.eagle:package:22461/2" type="model">
@@ -1820,6 +1851,13 @@ Metric Code Size 4564</description>
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="1X04"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-14N" urn="urn:adsk.eagle:package:14910052/1" type="model">
+<description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 8.65 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-14N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1933,7 +1971,7 @@ Metric Code Size 4564</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="PJ-015AH-SMT-TR">
+<symbol name="PJ-036AH-SMT-TR">
 <wire x1="-5.715" y1="1.27" x2="-5.715" y2="3.81" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-5.715" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
@@ -1947,8 +1985,8 @@ Metric Code Size 4564</description>
 <wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="-1.27" x2="-4.445" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="-7.63321875" y="5.088809375" size="1.78108125" layer="95">&gt;NAME</text>
-<text x="-7.62415" y="-5.08276875" size="1.77896875" layer="96">&gt;VALUE</text>
+<text x="-7.621309375" y="5.08086875" size="1.778309375" layer="95">&gt;NAME</text>
+<text x="-7.621959375" y="-5.081309375" size="1.778459375" layer="96">&gt;VALUE</text>
 <polygon width="0.1524" layer="94">
 <vertex x="0" y="-2.54"/>
 <vertex x="-0.508" y="-1.27"/>
@@ -2270,6 +2308,30 @@ Metric Code Size 4564</description>
 </technology>
 </technologies>
 </device>
+<device name="LS7366R-S" package="SOIC127P600X175-14N">
+<connects>
+<connect gate="G$1" pin="A" pad="12"/>
+<connect gate="G$1" pin="B" pad="11"/>
+<connect gate="G$1" pin="CNT_EN" pad="13"/>
+<connect gate="G$1" pin="DFLAG/" pad="9"/>
+<connect gate="G$1" pin="FCKI" pad="2"/>
+<connect gate="G$1" pin="FCKO" pad="1"/>
+<connect gate="G$1" pin="INDEX/" pad="10"/>
+<connect gate="G$1" pin="LFLAG/" pad="8"/>
+<connect gate="G$1" pin="MISO" pad="6"/>
+<connect gate="G$1" pin="MOSI" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="SS/" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14910052/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ECS-160-20-3X-TR" prefix="Y">
@@ -2296,13 +2358,13 @@ Metric Code Size 4564</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PJ-015AH-SMT-TR" prefix="J">
-<description>2.0 mm Center Pin, 5.0 A, Vertical, Surface Mount (SMT), Dc Power Jack Connector</description>
+<deviceset name="PJ-036AH-SMT-TR" prefix="J">
+<description>2.0 mm Center Pin, 5.0 A, Right Angle, Surface Mount (SMT), Dc Power Jack Connector</description>
 <gates>
-<gate name="G$1" symbol="PJ-015AH-SMT-TR" x="0" y="0"/>
+<gate name="G$1" symbol="PJ-036AH-SMT-TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CUI_PJ-015AH-SMT-TR">
+<device name="" package="CUI_PJ-036AH-SMT-TR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2310,12 +2372,12 @@ Metric Code Size 4564</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-015ah-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
-<attribute name="DESCRIPTION" value="2.0 x 6.6 mm, 5.0 A, Vertical, Surface Mount _SMT_, Dc Power Jack Connector"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="CP-015AHPJ-CT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-015AH-SMT-TR/CP-015AHPJ-CT-ND/3587634?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-036ah-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+<attribute name="DESCRIPTION" value="2.0 x 6.3 mm, 5.0 A, Horizontal, Surface Mount _SMT_, Dc Power Jack Connector"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CP-036AHPJCT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
 <attribute name="MF" value="CUI Devices"/>
-<attribute name="MP" value="PJ-015AH-SMT-TR"/>
+<attribute name="MP" value="PJ-036AH-SMT-TR"/>
 <attribute name="PACKAGE" value="None"/>
 </technology>
 </technologies>
@@ -19360,10 +19422,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U3" library="Downloads" deviceset="LS7366R-TS" device=""/>
+<part name="U3" library="Downloads" deviceset="LS7366R-TS" device="LS7366R-S" package3d_urn="urn:adsk.eagle:package:14910052/1" value="LS7366R-S"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="Y1" library="Downloads" deviceset="ECS-160-20-3X-TR" device="" value="16MHz"/>
-<part name="J1" library="Downloads" deviceset="PJ-015AH-SMT-TR" device=""/>
+<part name="J1" library="Downloads" deviceset="PJ-036AH-SMT-TR" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19388,11 +19450,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="B1" library="ME507" deviceset="BEAD" device="0805"/>
+<part name="B1" library="ME507" deviceset="BEAD" device="0805" value="100"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
-<part name="B2" library="ME507" deviceset="BEAD" device="0805"/>
+<part name="B2" library="ME507" deviceset="BEAD" device="0805" value="100"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="ME507" deviceset="AVCC" device=""/>
 <part name="P+9" library="ME507" deviceset="AVCC" device=""/>
@@ -19404,8 +19466,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19532,8 +19594,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="VALUE" x="99.06" y="175.26" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="B2" gate="G$1" x="210.82" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="207.01" y="74.93" size="1.778" layer="95"/>
-<attribute name="VALUE" x="217.17" y="74.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="212.09" y="80.01" size="1.778" layer="95"/>
+<attribute name="VALUE" x="214.63" y="77.47" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="210.82" y="88.9" smashed="yes">
 <attribute name="VALUE" x="208.28" y="88.9" size="1.778" layer="96"/>
@@ -19541,8 +19603,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="P+8" gate="AVCC" x="147.32" y="167.64" smashed="yes">
 <attribute name="VALUE" x="144.78" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="P+9" gate="AVCC" x="220.98" y="78.74" smashed="yes">
-<attribute name="VALUE" x="218.44" y="78.74" size="1.778" layer="96"/>
+<instance part="P+9" gate="AVCC" x="220.98" y="88.9" smashed="yes">
+<attribute name="VALUE" x="218.44" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="GND19" gate="1" x="210.82" y="55.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="213.36" y="53.34" size="1.778" layer="96" rot="MR0"/>
@@ -19837,7 +19899,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="210.82" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
 <junction x="210.82" y="71.12"/>
 <pinref part="P+9" gate="AVCC" pin="AVCC"/>
-<wire x1="220.98" y1="71.12" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="71.12" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -19927,7 +19989,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="167.64" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="PD7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD7"/>
 <wire x1="144.78" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
@@ -19936,7 +19998,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="147.32" y1="121.92" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="LED" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -20044,8 +20106,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="VALUE" x="171.958" y="102.87" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="177.8" y="104.14" smashed="yes" rot="MR270">
-<attribute name="NAME" x="178.8414" y="107.95" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="176.022" y="102.87" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="179.2986" y="107.95" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="179.578" y="102.87" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="170.18" y="114.3" smashed="yes">
 <attribute name="VALUE" x="167.64" y="114.3" size="1.778" layer="96"/>
@@ -20485,7 +20547,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="220.98" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="ENCB" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
 <wire x1="154.94" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
@@ -20498,7 +20560,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="177.8" y="93.98"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="ENCA" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A"/>
 <pinref part="JP4" gate="A" pin="2"/>
@@ -20555,7 +20617,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </instance>
 <instance part="B1" gate="G$1" x="121.92" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.19" y="158.75" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.27" y="153.67" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="125.73" y="156.21" size="1.778" layer="96"/>
 </instance>
 <instance part="GND17" gate="1" x="40.64" y="134.62" smashed="yes" rot="R180">
 <attribute name="VALUE" x="43.18" y="137.16" size="1.778" layer="96" rot="R180"/>
@@ -20904,7 +20966,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DM" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="D-"/>
 <wire x1="33.02" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
@@ -20913,7 +20975,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="50.8" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DP" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="USBDP"/>
 <wire x1="71.12" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
