@@ -822,10 +822,6 @@ Metric Code Size 4564</description>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<pad name="P$1" x="-0.635" y="0.635" drill="0.35"/>
-<pad name="P$2" x="0.635" y="0.635" drill="0.35"/>
-<pad name="P$3" x="0.635" y="-0.635" drill="0.35"/>
-<pad name="P$4" x="-0.635" y="-0.635" drill="0.35"/>
 </package>
 <package name="PWP16_2P31X2P46-M">
 <smd name="1" x="-2.8702" y="2.275" dx="1.9812" dy="0.4064" layer="1"/>
