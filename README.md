@@ -15,3 +15,5 @@
 10/30 - put down traces
 
 10/31 - rearranged board, added resistor
+
+11/3 - Digikey attributes added for all RCL
