@@ -17,3 +17,4 @@
 10/31 - rearranged board, added resistor
 
 11/3 - Digikey attributes added for all RCL
+     - Added excel sheet of digikey cart for all RCL
