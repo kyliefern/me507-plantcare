@@ -1,3 +1,6 @@
+/*
+	\headerfile main.h
+ */
 // Only modify this file to include
 // - function definitions (prototypes)
 // - include files
@@ -7,19 +10,19 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-//add your includes for the project PlantCare here
+// includes for the project PlantCare
 
 #include "Arduino_FreeRTOS.h"
 #include "Adafruit_seesaw.h"
 #include <SPI.h>
-#include "LS7366RLib.h"
+//#include "LS7366RLib.h"
 
-//end of add your includes here
+// end of includes
 
-//add your function definitions for the project PlantCare here
+// function definitions for the project PlantCare
 
 void TaskLight(void *pvParameters);
 void TaskWater(void *pvParameters);
 
-//Do not add code below this line
+// no code added below this line
 #endif /* _MAIN_H_ */

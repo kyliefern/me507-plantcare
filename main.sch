@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19378,132 +19378,30 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="ME507" deviceset="TITLEBLOCK_LET_L" device="">
-<attribute name="AUTHOR" value=""/>
-<attribute name="BOARD_NAME" value=""/>
-<attribute name="DOC_NUM" value=""/>
-<attribute name="PROJECT_NAME" value=""/>
-<attribute name="REVISION" value=""/>
-</part>
 <part name="U1" library="Downloads" deviceset="ATMEGA328P-AU" device=""/>
-<part name="FRAME2" library="ME507" deviceset="TITLEBLOCK_LET_L" device="">
-<attribute name="AUTHOR" value=""/>
-<attribute name="BOARD_NAME" value=""/>
-<attribute name="DOC_NUM" value=""/>
-<attribute name="PROJECT_NAME" value=""/>
-<attribute name="REVISION" value=""/>
-</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-3507-1-ND‎"/>
-</part>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1136-1-ND‎"/>
-</part>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="400m">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="P390ADCT-ND‎"/>
-</part>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-4" package3d_urn="urn:adsk.eagle:package:23370/1" value="10uF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="+" pinorder="1"/>
-<pinmap gate="G$1" pin="-" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎493-13387-ND‎"/>
-</part>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="400m"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-4" package3d_urn="urn:adsk.eagle:package:23370/1" value="10uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="Downloads" deviceset="DRV8833PWPR" device=""/>
 <part name="U4" library="Downloads" deviceset="LP38691DTX-5.0/NOPB" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1358-1-ND‎"/>
-</part>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1358-1-ND‎"/>
-</part>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-4221-1-ND‎"/>
-</part>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-4221-1-ND‎"/>
-</part>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1361-1-ND‎"/>
-</part>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1361-1-ND‎"/>
-</part>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1361-1-ND‎"/>
-</part>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U3" library="Downloads" deviceset="LS7366R-TS" device="LS7366R-S" package3d_urn="urn:adsk.eagle:package:14910052/1" value="LS7366R-S"/>
@@ -19513,15 +19411,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1361-1-ND‎"/>
-</part>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP2" library="Downloads" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
@@ -19529,191 +19419,52 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="JP3" library="Downloads" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP4" library="Downloads" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="FRAME3" library="ME507" deviceset="TITLEBLOCK_LET_L" device="">
-<attribute name="AUTHOR" value=""/>
-<attribute name="BOARD_NAME" value=""/>
-<attribute name="DOC_NUM" value=""/>
-<attribute name="PROJECT_NAME" value=""/>
-<attribute name="REVISION" value=""/>
-</part>
 <part name="U5" library="Downloads" deviceset="FT232RL-REEL" device=""/>
 <part name="J3" library="Downloads" deviceset="1734510-1" device=""/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1361-1-ND‎"/>
-</part>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="B1" library="ME507" deviceset="BEAD" device="0805" value="100">
-<attribute name="DIGIKEYPART#" value="‎240-2395-1-ND‎"/>
-</part>
+<part name="B1" library="ME507" deviceset="BEAD" device="0805" value="100"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1136-1-ND‎"/>
-</part>
-<part name="B2" library="ME507" deviceset="BEAD" device="0805" value="100">
-<attribute name="DIGIKEYPART#" value="‎240-2395-1-ND‎"/>
-</part>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
+<part name="B2" library="ME507" deviceset="BEAD" device="0805" value="120"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="ME507" deviceset="AVCC" device=""/>
 <part name="P+9" library="ME507" deviceset="AVCC" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎A129546CT-ND‎"/>
-</part>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎P330ADCT-ND‎"/>
-</part>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎A129546CT-ND‎"/>
-</part>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎A129546CT-ND‎"/>
-</part>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7k"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y2" library="Downloads" deviceset="ECS-160-20-3X-TR" device="" value="30MHz"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-4221-1-ND‎"/>
-</part>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-4221-1-ND‎"/>
-</part>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="20pF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-5" package3d_urn="urn:adsk.eagle:package:23367/2" value="4.7uF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="+" pinorder="1"/>
-<pinmap gate="G$1" pin="-" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎493-6100-1-ND‎"/>
-</part>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-5" package3d_urn="urn:adsk.eagle:package:23367/2" value="4.7uF"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100m">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎RNCP0805FTD100RCT-ND‎"/>
-</part>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100m"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="ME507" deviceset="NC" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎A129546CT-ND‎"/>
-</part>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎A129546CT-ND‎"/>
-</part>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎A129546CT-ND‎"/>
-</part>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
-<spice>
-<pinmapping spiceprefix="C">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="‎311-1361-1-ND‎"/>
-</part>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="RHM270KCT-ND‎"/>
-</part>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270"/>
 <part name="U$2" library="ME507" deviceset="NC" device=""/>
 <part name="U$3" library="ME507" deviceset="NC" device=""/>
 <part name="U$4" library="ME507" deviceset="NC" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="RHM270KCT-ND‎"/>
-</part>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270"/>
 <part name="U$5" library="ME507" deviceset="NC" device=""/>
 <part name="U$6" library="ME507" deviceset="NC" device=""/>
 <part name="U$7" library="ME507" deviceset="NC" device=""/>
@@ -19728,28 +19479,15 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$14" library="ME507" deviceset="NC" device=""/>
 <part name="U$15" library="ME507" deviceset="NC" device=""/>
 <part name="U$16" library="ME507" deviceset="NC" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="RHM270KCT-ND‎"/>
-</part>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="270"/>
 <part name="D1" library="HSMC-C190" deviceset="HSMC-C190" device="" value="RED LED"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D2" library="HSMC-C190" deviceset="HSMC-C190" device="" value="GREEN LED"/>
 <part name="D3" library="HSMC-C190" deviceset="HSMC-C190" device="" value="GREEN LED"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="DIGIKEYPART#" value="A102079CT-ND‎"/>
-</part>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1M"/>
+<part name="FRAME1" library="ME507" deviceset="TITLEBLOCK_LET_L" device=""/>
+<part name="FRAME2" library="ME507" deviceset="TITLEBLOCK_LET_L" device=""/>
+<part name="FRAME3" library="ME507" deviceset="TITLEBLOCK_LET_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19758,21 +19496,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="119.38" y="83.82" size="1.778" layer="95">AVR ISP Header</text>
 <text x="27.94" y="83.82" size="1.778" layer="150">Reset Switch</text>
 <text x="187.96" y="93.98" size="1.778" layer="150">Decoupling Capacitors</text>
-<text x="22.86" y="30.48" size="1.778" layer="150">Unsure about the value of the ferrite bead [B2]</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$3" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$1" x="-5.08" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="142.24" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="154.94" y="11.43" size="2.54" layer="94"/>
-<attribute name="SHEET" x="184.15" y="6.35" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="235.585" y="3.81" size="2.54" layer="94" align="bottom-right"/>
-<attribute name="AUTHOR" x="160.02" y="16.51" size="2.54" layer="94"/>
-<attribute name="PROJECT_NAME" x="160.02" y="30.48" size="2.54" layer="94"/>
-<attribute name="BOARD_NAME" x="154.94" y="22.86" size="2.54" layer="94"/>
-<attribute name="REVISION" x="152.4" y="6.35" size="2.54" layer="94"/>
-<attribute name="DOC_NUM" x="179.324" y="1.27" size="2.54" layer="94"/>
-</instance>
 <instance part="U1" gate="G$1" x="129.54" y="134.62" smashed="yes">
 <attribute name="NAME" x="119.3645" y="163.8746" size="2.54388125" layer="95"/>
 <attribute name="VALUE" x="114.2931" y="102.8486" size="2.54171875" layer="96"/>
@@ -19783,12 +19508,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C6" gate="G$1" x="60.96" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.055" y="131.064" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.849" y="128.524" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="60.96" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="60.96" y="142.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.055" y="146.304" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.849" y="143.764" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="60.96" y="142.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="53.34" y="121.92" smashed="yes">
 <attribute name="VALUE" x="50.8" y="119.38" size="1.778" layer="96"/>
@@ -19799,17 +19522,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C8" gate="G$1" x="185.42" y="73.66" smashed="yes">
 <attribute name="NAME" x="186.436" y="74.295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.436" y="69.469" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="185.42" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="195.58" y="73.66" smashed="yes">
 <attribute name="NAME" x="196.596" y="74.295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="196.596" y="69.469" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="195.58" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="210.82" y="66.04" smashed="yes">
 <attribute name="NAME" x="211.836" y="66.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="211.836" y="61.849" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="210.82" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="190.5" y="55.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="193.04" y="53.34" size="1.778" layer="96" rot="MR0"/>
@@ -19834,7 +19554,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C12" gate="G$1" x="104.14" y="167.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="102.235" y="171.704" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.029" y="169.164" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="104.14" y="167.64" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="96.52" y="172.72" smashed="yes" rot="R180">
 <attribute name="VALUE" x="99.06" y="175.26" size="1.778" layer="96" rot="R180"/>
@@ -19842,7 +19561,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="B2" gate="G$1" x="210.82" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.09" y="80.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="77.47" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="210.82" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+7" gate="1" x="210.82" y="88.9" smashed="yes">
 <attribute name="VALUE" x="208.28" y="88.9" size="1.778" layer="96"/>
@@ -19862,12 +19580,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R2" gate="G$1" x="55.88" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8414" y="85.09" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.642" y="85.09" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="55.88" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="48.26" y="73.66" smashed="yes">
 <attribute name="NAME" x="44.45" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="70.358" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="48.26" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+10" gate="1" x="55.88" y="91.44" smashed="yes">
 <attribute name="VALUE" x="53.34" y="91.44" size="1.778" layer="96"/>
@@ -19875,7 +19591,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C17" gate="G$1" x="55.88" y="68.58" smashed="yes">
 <attribute name="NAME" x="56.896" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.896" y="64.389" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="55.88" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="55.88" y="58.42" smashed="yes">
 <attribute name="VALUE" x="53.34" y="55.88" size="1.778" layer="96"/>
@@ -19887,7 +19602,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R14" gate="G$1" x="175.26" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="171.45" y="122.9614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="173.99" y="117.602" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="175.26" y="121.92" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="160.02" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="154.43513125" y="117.84973125" size="1.780740625" layer="95"/>
@@ -19895,6 +19609,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </instance>
 <instance part="GND27" gate="1" x="182.88" y="114.3" smashed="yes">
 <attribute name="VALUE" x="180.34" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$3" x="2.54" y="2.54" smashed="yes"/>
+<instance part="FRAME1" gate="G$1" x="-2.54" y="2.54" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="144.78" y="2.54" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="157.48" y="13.97" size="2.54" layer="94"/>
+<attribute name="SHEET" x="186.69" y="8.89" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="238.125" y="6.35" size="2.54" layer="94" align="bottom-right"/>
+<attribute name="REVISION" x="154.94" y="8.89" size="2.54" layer="94"/>
+<attribute name="PROJECT_NAME" x="162.56" y="33.02" size="2.54" layer="94"/>
+<attribute name="DOC_NUM" x="181.864" y="3.81" size="2.54" layer="94"/>
+<attribute name="AUTHOR" x="167.64" y="19.05" size="2.54" layer="94"/>
+<attribute name="BOARD_NAME" x="157.48" y="25.4" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -20277,18 +20003,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="35.56" y="25.4" size="1.778" layer="150">Motor driver input 2.7 - 10.8V</text>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$3" x="0" y="0" smashed="yes"/>
-<instance part="FRAME2" gate="G$1" x="-5.08" y="0" smashed="yes"/>
-<instance part="FRAME2" gate="G$2" x="142.24" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="154.94" y="11.43" size="2.54" layer="94"/>
-<attribute name="SHEET" x="184.15" y="6.35" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="235.585" y="3.81" size="2.54" layer="94" align="bottom-right"/>
-<attribute name="AUTHOR" x="160.02" y="16.51" size="2.54" layer="94"/>
-<attribute name="PROJECT_NAME" x="160.02" y="30.48" size="2.54" layer="94"/>
-<attribute name="BOARD_NAME" x="154.94" y="22.86" size="2.54" layer="94"/>
-<attribute name="REVISION" x="152.4" y="6.35" size="2.54" layer="94"/>
-<attribute name="DOC_NUM" x="179.324" y="1.27" size="2.54" layer="94"/>
-</instance>
 <instance part="GND2" gate="1" x="119.38" y="114.3" smashed="yes">
 <attribute name="VALUE" x="116.84" y="111.76" size="1.778" layer="96"/>
 </instance>
@@ -20301,22 +20015,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C1" gate="G$1" x="127" y="124.46" smashed="yes">
 <attribute name="NAME" x="128.016" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.016" y="120.269" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="127" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="121.92" y="157.48" smashed="yes">
 <attribute name="NAME" x="122.936" y="158.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="122.936" y="153.289" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="121.92" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="50.8" y="116.84" smashed="yes" rot="MR270">
 <attribute name="NAME" x="51.8414" y="120.65" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="51.562" y="113.03" size="1.778" layer="96" rot="MR180"/>
-<attribute name="DIGIKEYPART#" x="50.8" y="116.84" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="132.08" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="133.604" y="160.655" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="133.604" y="153.289" size="1.778" layer="96" rot="MR180"/>
-<attribute name="DIGIKEYPART#" x="132.08" y="157.48" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="132.08" y="147.32" smashed="yes">
 <attribute name="VALUE" x="129.54" y="144.78" size="1.778" layer="96"/>
@@ -20359,12 +20069,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R4" gate="G$1" x="170.18" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="171.6786" y="105.41" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.958" y="102.87" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="170.18" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="177.8" y="104.14" smashed="yes" rot="MR270">
 <attribute name="NAME" x="179.2986" y="107.95" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="179.578" y="102.87" size="1.778" layer="96" rot="MR180"/>
-<attribute name="DIGIKEYPART#" x="177.8" y="104.14" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="170.18" y="114.3" smashed="yes">
 <attribute name="VALUE" x="167.64" y="114.3" size="1.778" layer="96"/>
@@ -20382,12 +20090,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C14" gate="G$1" x="137.16" y="78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="132.715" y="82.804" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.049" y="80.264" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="137.16" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="137.16" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="132.715" y="67.564" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.049" y="65.024" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="137.16" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="129.54" y="58.42" smashed="yes">
 <attribute name="VALUE" x="127" y="55.88" size="1.778" layer="96"/>
@@ -20395,7 +20101,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R6" gate="G$1" x="43.18" y="116.84" smashed="yes" rot="MR270">
 <attribute name="NAME" x="44.2214" y="120.65" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="43.942" y="113.03" size="1.778" layer="96" rot="MR180"/>
-<attribute name="DIGIKEYPART#" x="43.18" y="116.84" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="43.18" y="106.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="45.72" y="104.14" size="1.778" layer="96" rot="MR0"/>
@@ -20403,17 +20108,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R7" gate="G$1" x="165.1" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.1414" y="62.23" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.862" y="57.15" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="165.1" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="172.72" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="173.7614" y="59.69" size="1.778" layer="95"/>
 <attribute name="VALUE" x="173.482" y="54.61" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="172.72" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="180.34" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="181.3814" y="57.15" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.102" y="52.07" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="180.34" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+11" gate="1" x="50.8" y="157.48" smashed="yes">
 <attribute name="VALUE" x="48.26" y="157.48" size="1.778" layer="96"/>
@@ -20424,7 +20126,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R12" gate="G$1" x="154.94" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.9814" y="72.39" size="1.778" layer="95"/>
 <attribute name="VALUE" x="155.702" y="67.31" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="154.94" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="FRAME2" gate="G$3" x="5.08" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="147.32" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="160.02" y="11.43" size="2.54" layer="94"/>
+<attribute name="SHEET" x="189.23" y="6.35" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="240.665" y="3.81" size="2.54" layer="94" align="bottom-right"/>
+<attribute name="REVISION" x="157.48" y="6.35" size="2.54" layer="94"/>
+<attribute name="PROJECT_NAME" x="165.1" y="30.48" size="2.54" layer="94"/>
+<attribute name="DOC_NUM" x="184.404" y="1.27" size="2.54" layer="94"/>
+<attribute name="AUTHOR" x="170.18" y="16.51" size="2.54" layer="94"/>
+<attribute name="BOARD_NAME" x="160.02" y="22.86" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -20843,21 +20556,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="175.26" y="114.3" size="1.778" layer="95">Voltage Regulator</text>
 <text x="88.9" y="160.02" size="1.778" layer="150">UART Bridge</text>
 <text x="38.1" y="27.94" size="1.778" layer="150">Voltage regulator input 2.7 - 10V</text>
-<text x="38.1" y="20.32" size="1.778" layer="150">Unsure about the value of the ferrite bead [B1]</text>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$3" x="0" y="0" smashed="yes"/>
-<instance part="FRAME3" gate="G$1" x="-5.08" y="0" smashed="yes"/>
-<instance part="FRAME3" gate="G$2" x="142.24" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="154.94" y="11.43" size="2.54" layer="94"/>
-<attribute name="SHEET" x="184.15" y="6.35" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="235.585" y="3.81" size="2.54" layer="94" align="bottom-right"/>
-<attribute name="AUTHOR" x="160.02" y="16.51" size="2.54" layer="94"/>
-<attribute name="PROJECT_NAME" x="160.02" y="30.48" size="2.54" layer="94"/>
-<attribute name="BOARD_NAME" x="154.94" y="22.86" size="2.54" layer="94"/>
-<attribute name="REVISION" x="152.4" y="6.35" size="2.54" layer="94"/>
-<attribute name="DOC_NUM" x="179.324" y="1.27" size="2.54" layer="94"/>
-</instance>
 <instance part="U5" gate="G$1" x="93.98" y="111.76" smashed="yes">
 <attribute name="VALUE" x="93.9557" y="111.694" size="1.271740625" layer="96"/>
 <attribute name="NAME" x="76.1654" y="155.0241" size="1.27246875" layer="95"/>
@@ -20869,7 +20569,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C11" gate="G$1" x="129.54" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.905" y="138.176" size="1.778" layer="95"/>
 <attribute name="VALUE" x="126.111" y="130.556" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="129.54" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="139.7" y="129.54" smashed="yes">
 <attribute name="VALUE" x="137.16" y="127" size="1.778" layer="96"/>
@@ -20883,7 +20582,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="B1" gate="G$1" x="121.92" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="123.19" y="158.75" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="156.21" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="121.92" y="157.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="40.64" y="134.62" smashed="yes" rot="R180">
 <attribute name="VALUE" x="43.18" y="137.16" size="1.778" layer="96" rot="R180"/>
@@ -20894,7 +20592,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C13" gate="G$1" x="35.56" y="114.3" smashed="yes">
 <attribute name="NAME" x="36.576" y="114.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.576" y="110.109" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="35.56" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="121.92" y="139.7" smashed="yes">
 <attribute name="VALUE" x="119.38" y="139.7" size="1.778" layer="96"/>
@@ -20902,7 +20599,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C16" gate="G$1" x="129.54" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.905" y="153.416" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.731" y="150.876" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="129.54" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND24" gate="1" x="139.7" y="144.78" smashed="yes">
 <attribute name="VALUE" x="137.16" y="142.24" size="1.778" layer="96"/>
@@ -20911,7 +20607,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R10" gate="G$1" x="58.42" y="83.82" smashed="yes">
 <attribute name="NAME" x="57.15" y="85.3186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="80.518" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="58.42" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$2" gate="A" x="71.12" y="129.54" smashed="yes" rot="R180"/>
 <instance part="U$3" gate="A" x="116.84" y="129.54" smashed="yes"/>
@@ -20919,7 +20614,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="R11" gate="G$1" x="58.42" y="93.98" smashed="yes">
 <attribute name="NAME" x="57.15" y="95.4786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="90.678" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="58.42" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$5" gate="A" x="71.12" y="121.92" smashed="yes" rot="R180"/>
 <instance part="U$6" gate="A" x="71.12" y="116.84" smashed="yes" rot="R180"/>
@@ -20940,12 +20634,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C4" gate="G$1" x="147.32" y="91.44" smashed="yes">
 <attribute name="NAME" x="148.336" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="148.336" y="87.249" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="147.32" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="210.82" y="91.44" smashed="yes">
 <attribute name="NAME" x="211.836" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="211.836" y="87.249" size="1.778" layer="96"/>
-<attribute name="DIGIKEYPART#" x="210.82" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="147.32" y="78.74" smashed="yes">
 <attribute name="VALUE" x="144.78" y="76.2" size="1.778" layer="96"/>
@@ -20967,6 +20659,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="D3" gate="G$1" x="43.18" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.59513125" y="89.90973125" size="1.780740625" layer="95"/>
 <attribute name="VALUE" x="37.59368125" y="87.63315" size="1.77946875" layer="96"/>
+</instance>
+<instance part="FRAME3" gate="G$3" x="2.54" y="2.54" smashed="yes"/>
+<instance part="FRAME3" gate="G$1" x="-2.54" y="2.54" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="144.78" y="2.54" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="157.48" y="13.97" size="2.54" layer="94"/>
+<attribute name="SHEET" x="186.69" y="8.89" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="238.125" y="6.35" size="2.54" layer="94" align="bottom-right"/>
+<attribute name="REVISION" x="154.94" y="8.89" size="2.54" layer="94"/>
+<attribute name="PROJECT_NAME" x="162.56" y="33.02" size="2.54" layer="94"/>
+<attribute name="DOC_NUM" x="181.864" y="3.81" size="2.54" layer="94"/>
+<attribute name="AUTHOR" x="167.64" y="19.05" size="2.54" layer="94"/>
+<attribute name="BOARD_NAME" x="157.48" y="25.4" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
